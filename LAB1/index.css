@@ -15,7 +15,7 @@ body {
 }
 
 .profile-nav .user-heading {
-    background-image: url(img/w3.png);
+    background-image: url(img/w3);
     color: #fff;
     border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
@@ -109,7 +109,7 @@ body {
 }
 
 .bio-graph-heading {
-    background-image: url("img/w1.png");
+    background-image: url("img/w1");
     text-align: center;
     font-style: italic;
     padding: 40px 110px;
