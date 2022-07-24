@@ -41,8 +41,8 @@ body {
   
   /* When clicked on, add a background color and strike out text */
   ul li.checked {
-    background: #888;
-    color: #fff;
+    background: rgb(255, 174, 0);
+    color: rgb(255, 3, 3);
     text-decoration: line-through;
   }
   
@@ -50,7 +50,7 @@ body {
   ul li.checked::before {
     content: '';
     position: absolute;
-    border-color: #fff;
+    border-color: rgb(157, 0, 255);
     border-style: solid;
     border-width: 0 2px 2px 0;
     top: 10px;
