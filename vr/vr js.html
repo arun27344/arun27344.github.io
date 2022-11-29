@@ -1,0 +1,15 @@
+<script>
+    document.getElementById("btn").addEventListener("click",doStuff);
+    function doStuff(){
+    var userInput = {};
+    userInput.Name= document.getElementById("name").value;
+    userInput.Nickname= document.getElementById("nick").value;
+    userInput.Fn= document.getElementById("fn").value;
+    
+    google.script.run.userClicked(userInput);
+    document.getElementById("name").value = "";
+    document.getElementById("nick").value = "";
+    document.getElementById("fn").value = "";
+    }
+    
+    </script>

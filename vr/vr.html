@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <?!= include("vr css"); ?>
+    </head>
+  <body>
+     <div class="container">
+      <div class="row">
+      <div class = "col-sm-5">
+    <h1>ลงชื่อเข้าเวร</h1> <br>
+    <div class="form-row">
+    <label>คำนำหน้า:</label> <br>
+    <select id="fn">
+    <option>นาย</option>
+    <option>นางสาว</option>
+    <option>นาง</option>
+    </select>
+    </div>
+    <div class="form-row">
+    <label>ชื่อ-นามสกลุ:</label> <br>
+    <input type="text" id="name">
+    </div>
+    <div class="form-row">
+    <label>ชื่อเล่น:</label> <br>
+    <input type="text" id="nick">
+    </div>
+    <div class="form-row"> <br>
+    <button id="btn"> ลงเวร </button>
+    </div>
+    </div>
+    </div>
+    </div>
+    <?!= include("vr js"); ?>
+  </body>
+</html>
